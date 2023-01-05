@@ -1,0 +1,38 @@
+Part 1: Set the Scene
+
+1. mkdir death-star && cd death-star
+touch darth_vade.txt princess_leia.txt storm_trooper.txt
+
+2. cd..
+mkdir tatooine && cd tatooine
+touch luke.txt ben_kenobi.txt
+
+3. cd tatooine
+mkdir millenium_falcon
+cd millenium_falcon/
+touch han_solo.txt chewbaca.txt
+
+Part II: mv - rename
+
+4. cd ..
+mv ben_kenobi.txt obi_wan.txt
+
+Part II: cp -copy
+cp storm_trooper.txt ~/Desktop/git-github-and-terminal/galaxy-far-far-away/tatooine
+
+
+Part IV: mv-move
+6. mv luke.txt millenium_falcon/ && mv obi_wan.txt millenium_falcon/
+7. mv millenium_falcon/ ..
+8. mv millenium_falcon/ death-star/
+9. mv princess_leia.txt millenium_falcon/
+
+Part V: rm - remove
+10.  rm obi_wan.txt
+
+Part VI: all together
+11. mkdir yavin_4
+12. mv death-star/millenium_falcon/ yavin_4
+13. mkdir x_wing
+14. mv millenium_falcon/princess_leia.txt . && mv millenium_falcon/luke.txt x_wing/
+15. 
