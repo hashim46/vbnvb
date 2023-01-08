@@ -35,4 +35,21 @@ Part VI: all together
 12. mv death-star/millenium_falcon/ yavin_4
 13. mkdir x_wing
 14. mv millenium_falcon/princess_leia.txt . && mv millenium_falcon/luke.txt x_wing/
-15. 
+15. mv yavin_4/millenium_falcon . && mv yavin_4/x_wing .
+16. mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+17. mv darth_vader.txt tie_fighter_1
+18. cp storm_trooper.txt tie_fighter_2 && cp storm_trooper.txt tie_fighter_3
+19. mv tie_fighter_1 tie_fighter_2 tie_fighter_3 ..
+
+Part VII: rm -r
+20. rm -r tie_fighter_2 tie_fighter_3
+
+Part VIII:
+
+21. touch x_wing/the_force.txt
+22. rm -r death-star/
+23. mv x_wing/ yavin_4/ && mv millenium_falcon/ yavin_4/
+
+
+
+
